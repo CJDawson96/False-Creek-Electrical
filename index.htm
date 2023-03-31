@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>False Creek Electrical</title>
 	<style>
 		/* Style for fonts */
@@ -107,16 +108,45 @@
 			margin-right: 0px;
 		}
 
-		@media screen and (max-width: 600px) {
-			.content-section .content-text {
-				width: 100%;
-				margin-right: 0;
-			}
+@media screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px */
+  .banner img {
+    margin-top: -22%;
+  }
 
-			.content-section img {
-				width: 100%;
-			}
-		}
+  #left-text-1 {
+    padding-right: 0;
+  }
+
+  .content {
+    Margin-top:-35%;
+  }
+
+  .content-section {
+    flex-direction: column;
+    margin: 5% ;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    padding: 0;
+  }
+
+  #right-text {
+    padding-left: 0;
+  }
+
+  #footer-text {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #footer-logo {
+    width: 50%;
+    padding-bottom: 5%;
+    Padding-top: 5%;
+  }
+}
 
 		body {
 			background-color: white;
@@ -154,7 +184,7 @@
 	</section>
 
 	<!-- Content section 1 -->
-	
+	<div class="content">
 	<div class="content-section" id="content-block-1">
 	<div class="left-section" id="left-text-1">
     			<h2>Professional Electrical Solutions</h2>
@@ -190,6 +220,7 @@
     			<img src="home-img3.png"alt="Image 1">
   		</div>
 	</div>
+</div>
 </body>
 <footer>
 <div class="content-section" id="footer-content">

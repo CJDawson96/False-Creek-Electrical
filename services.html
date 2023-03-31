@@ -108,15 +108,42 @@
 		}
 
 		@media screen and (max-width: 600px) {
-			.content-section .content-text {
-				width: 100%;
-				margin-right: 0;
-			}
+  /* Styles for screens with a maximum width of 600px */
+  .banner img {
+    margin-top: -22%;
+  }
 
-			.content-section img {
-				width: 100%;
-			}
-		}
+  #left-text-1 {
+    padding-right: 0;
+  }
+  .content {
+    Margin-top: -35%;
+  }
+  .content-section {
+    flex-direction: column;
+    Padding: 5%;
+  }
+
+  .left-section, .right-section {
+    width: 100%;
+    padding: 0;
+  }
+
+  #right-text {
+    padding-left: 0;
+  }
+
+  #footer-text {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #footer-logo {
+    width: 50%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+}
 
 		body {
 			background-color: white;
@@ -154,7 +181,7 @@
 	</section>
 
 	<!-- Content section 1 -->
-	
+	<div class="content">
 	<div class="content-section" id="content-block-1">
 	<div class="left-section" id="left-text-1">
     			<h2>Elevate Your Home's Electrical System</h2>
@@ -189,6 +216,7 @@
   		<div class="right-section">
     			<img src="services-img-3.png"alt="Image 1">
   		</div>
+	</div>
 	</div>
 </body>
 <footer>
